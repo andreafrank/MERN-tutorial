@@ -9,6 +9,6 @@ const exerciseSchema = new Schema({
 	timestamps: true,
 });
 
-const User = mongoose.model('User', userSchema);
+const Exercise = mongoose.model('Exercise', userSchema);
 
-module.exports = User;
+module.exports = Exercise;
